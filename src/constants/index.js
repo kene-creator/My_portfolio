@@ -15,15 +15,20 @@ import {
   git,
   figma,
   docker,
+  rails,
   meta,
   starbucks,
   tesla,
   shopify,
+  microverse,
+  self,
+  overboard_media,
   carrent,
   jobit,
   tripguide,
   threejs,
-} from "../assets";
+  nextjs,
+} from "../assets/index";
 
 export const navLinks = [
   {
@@ -112,59 +117,54 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "ruby on rails",
+    icon: rails,
+  },
+  {
+    name: "Next Js",
+    icon: nextjs,
+  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Mentor",
+    company_name: "Microverse",
+    icon: microverse,
+    iconBg: "#fff",
+    date: "August 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Assisted three junior web developers weekly",
+      "Providing technical support through code reviews and assisting other developers to create high-quality products.",
+      "Proposed improvements to code organization to improve code quality and overall performance",
+    ],
+  },
+  {
+    title: "Fullstack Developer",
+    company_name: "Overboard Media",
+    icon: overboard_media,
+    iconBg: "#feded1",
+    date: "Dec 2022 - Feb 2023",
+    points: [
+      "Developing and maintaining web applications using React.js, Next,js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Self Employed",
+    company_name: "Kene Agagwu",
+    icon: self,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Made use of tailwind css, React.js and firebase to create a prototype of an e-commerce website",
+      "Gained soft skills such as communication, pair-programming",
+      "Developed a blog app using ruby on rails",
+      "Developed a fullstack MERN AI image generation App",
+      "Built a Google Docs clone that coverts strike-through text into links using Quill.js and React.js",
     ],
   },
 ];
