@@ -27,6 +27,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  nextjs,
 } from "../assets/index";
 
 export const navLinks = [
@@ -119,6 +120,10 @@ const technologies = [
   {
     name: "ruby on rails",
     icon: rails,
+  },
+  {
+    name: "Next Js",
+    icon: nextjs,
   },
 ];
 
