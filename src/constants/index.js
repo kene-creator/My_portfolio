@@ -172,27 +172,28 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Kenechukwu's work ethic is absolutely out of this world. Glad to watch him grow and build exciting products that are beyond outstanding. Go Kene. Thank you for being awesome!",
+    name: "Tochukwu Agagwu",
+    designation: "CEO",
+    company: "Overboard Media",
+    image:
+      "https://media.licdn.com/dms/image/C5603AQEa_hRNE7LyHg/profile-displayphoto-shrink_800_800/0/1583962717856?e=1684368000&v=beta&t=86s-pW2TMPbgW1I4zJLfS1wK04OGmoZ9LbZ_yDgVOsI",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Kenechukwu is a self driven and hardworking individual. Over time his growth in software development has shown through his dedication to work and his willingness to learn.",
+    name: "Ashaka Egerega",
+    designation: "Backend Engineer",
+    company: "IQ.Wiki",
+    image: "https://files.fm/thumb_show.php?i=ehntm8nh8",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "I and Kene worked on a group capstone together and we made a great team, we faced many challenges but we managed to solve them and successfully completed the project as a team.",
+    name: "Faranosh Amini",
+    designation: "Mentor",
+    company: "Microverse",
+    image: "https://ca.slack-edge.com/T47CT8XPG-U03ERCXTV60-a025fba72936-512",
   },
 ];
 
