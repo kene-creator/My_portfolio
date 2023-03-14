@@ -1,7 +1,6 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { motion } from "framer-motion";
-import emailjs from "@emailjs/browser";
-import { useForm, ValidationError } from "@formspree/react";
+import { useForm } from "@formspree/react";
 import { styles } from "../style";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
@@ -11,17 +10,24 @@ const Contact = () => {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
   const [loading, setLoading] = useState(false);
 
+  const [state, handleSubmit] = useForm("mgebzpqd");
+
+  useEffect(() => {
+    if (state.succeeded) {
+      setLoading(false);
+      setForm({ name: "", email: "", message: "" });
+    }
+    if (state.submitting) {
+      setLoading(true);
+    }
+  }, [state]);
+
   const formRef = useRef();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setForm({ ...form, [name]: value });
   };
-
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   setLoading(true);
-  // };
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
@@ -32,7 +38,6 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact</h3>
         <form
-          action=""
           ref={formRef}
           onSubmit={handleSubmit}
           className="mt-12 flex flex-wrap flex-col gap-8"
@@ -46,6 +51,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What's your name?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              required
             />
           </label>
           <label className="flex flex-col">
@@ -57,6 +63,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What's your email?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              required
             />
           </label>
           <label className="flex flex-col">
@@ -68,6 +75,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="Enter your message?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              required
             />
           </label>
           <button
@@ -77,6 +85,15 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
+        <div>
+          {state.succeeded ? (
+            <p className="text-green-500 font-semibold text-[15px]">
+              Message Sent! I'll get back to you as soon as possible, thank you!
+            </p>
+          ) : (
+            ""
+          )}
+        </div>
       </motion.div>
 
       <motion.div
