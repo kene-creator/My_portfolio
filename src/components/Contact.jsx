@@ -40,9 +40,9 @@ const Contact = () => {
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className="mt-12 flex flex-wrap flex-col gap-8"
+          className="mt-12 flex flex-wrap flex-col gap-8 "
         >
-          <label className="flex flex-col">
+          <label className="flex flex-col w-full">
             <span className="flex-white font-medium mb-4">Your Name</span>
             <input
               type="text"
@@ -54,7 +54,7 @@ const Contact = () => {
               required
             />
           </label>
-          <label className="flex flex-col">
+          <label className="flex flex-col w-full">
             <span className="flex-white font-medium mb-4">Your Email</span>
             <input
               type="email"
@@ -66,7 +66,7 @@ const Contact = () => {
               required
             />
           </label>
-          <label className="flex flex-col">
+          <label className="flex flex-col w-full">
             <span className="flex-white font-medium mb-4">Your Message</span>
             <textarea
               rows="7"
