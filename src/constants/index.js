@@ -28,6 +28,7 @@ import {
   tripguide,
   threejs,
   nextjs,
+  openai,
 } from "../assets/index";
 
 export const navLinks = [
@@ -185,7 +186,8 @@ const testimonials = [
     name: "Ashaka Egerega",
     designation: "Backend Engineer",
     company: "IQ.Wiki",
-    image: "https://files.fm/thumb_show.php?i=ehntm8nh8",
+    image:
+      "https://media.licdn.com/dms/image/C5603AQEE9mB0u100HQ/profile-displayphoto-shrink_800_800/0/1617650348590?e=2147483647&v=beta&t=NQqh3kRKIrSgk1EbARN8z62Y5GYQncVOVinys04o8ps",
   },
   {
     testimonial:
@@ -218,27 +220,37 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/",
+    live_link: "https://aiopenimage.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "Open Ai Image Generator",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Using OpenAi API's the project would generate an image for a user based on the prompt it receives. Images can be downloaded and shared with friends.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "openai",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "node.js",
+        color: "green-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: openai,
+    source_code_link: "https://github.com/kene-creator/Ai_image_generator",
+    live_link: "https://aiopenimage.netlify.app/",
   },
   {
     name: "Trip Guide",
@@ -260,6 +272,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
+    live_link: "https://aiopenimage.netlify.app/",
   },
 ];
 

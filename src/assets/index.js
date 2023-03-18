@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import live from "./live.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -34,6 +35,7 @@ import self from "./company/self.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import openai from "./openai.png";
 
 export {
   logo,
@@ -69,4 +71,6 @@ export {
   jobit,
   tripguide,
   nextjs,
+  openai,
+  live,
 };
