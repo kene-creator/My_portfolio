@@ -37,6 +37,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import openai from "./openai.png";
 import sociopedia from "./sociopedia.png";
+import dashboard from "./dashboard.png";
 
 export {
   logo,
@@ -75,4 +76,5 @@ export {
   openai,
   live,
   sociopedia,
+  dashboard,
 };

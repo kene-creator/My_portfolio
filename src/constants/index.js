@@ -202,9 +202,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Dashboard",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to create and manage their own dashboards. Users can add widgets to their dashboards and customize them to their liking. Users can also share their dashboards with other users.",
     tags: [
       {
         name: "react",
@@ -220,8 +220,8 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
-    live_link: "https://aiopenimage.netlify.app/",
+    source_code_link: "https://github.com/kene-creator/Retro-dashboard",
+    live_link: "https://keystone-retro-dashboard.netlify.app/",
   },
   {
     name: "Open Ai Image Generator",
