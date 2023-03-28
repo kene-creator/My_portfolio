@@ -29,6 +29,7 @@ import {
   threejs,
   nextjs,
   openai,
+  sociopedia,
 } from "../assets/index";
 
 export const navLinks = [
@@ -253,26 +254,30 @@ const projects = [
     live_link: "https://aiopenimage.netlify.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Sociopedia Network",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive socail media application that allows users to create an account, share posts, like and comment on posts, and follow other users.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "material-ui",
         color: "pink-text-gradient",
       },
+      {
+        name: "express",
+        color: "blue-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-    live_link: "https://aiopenimage.netlify.app/",
+    image: sociopedia,
+    source_code_link: "https://github.com/kene-creator/sociopedia",
+    live_link: "https://sociopediaapp.netlify.app/",
   },
 ];
 
