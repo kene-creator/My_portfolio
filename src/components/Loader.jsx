@@ -3,11 +3,12 @@ import { Html, useProgress } from "@react-three/drei";
 import { CircularProgress, Box, Typography } from "@mui/material";
 
 function CircularProgressWithLabel(props) {
+  const val = parseFloat(props.value);
   return (
     <Box sx={{ position: "relative", display: "inline-flex" }}>
       <CircularProgress
         variant="determinate"
-        {...props}
+        value={val}
         thickness={6}
         color="secondary"
       />
@@ -45,7 +46,6 @@ const Loader = () => {
         }}
       >
         <CircularProgressWithLabel value={progress.toFixed(0)} />
-        {/* {progress.toFixed(2)} */}
       </p>
     </Html>
   );
