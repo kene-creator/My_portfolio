@@ -202,9 +202,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Dashboard",
+    name: "Car Rental",
     description:
-      "Web-based platform that allows users to create and manage their own dashboards. Users can add widgets to their dashboards and customize them to their liking. Users can also share their dashboards with other users.",
+      "A complete fullstack project built with modern web techologies that provides access to car rental services and relevant information about a certian car brand.",
     tags: [
       {
         name: "react",
@@ -216,6 +216,26 @@ const projects = [
       },
       {
         name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nestjs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "graphQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "docker",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "material-ui",
         color: "pink-text-gradient",
       },
     ],
