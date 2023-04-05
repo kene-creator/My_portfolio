@@ -240,7 +240,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/kene-creator/Retro-dashboard",
+    source_code_link: "https://github.com/kene-creator/car_rental",
     live_link: "https://keystone-retro-dashboard.netlify.app/",
   },
   {
