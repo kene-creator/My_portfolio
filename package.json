@@ -1,6 +1,6 @@
 {
   "name": "3d_portfolio",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -9,7 +9,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@chevrotain/utils": "^10.5.0",
     "@emailjs/browser": "^3.10.0",
     "@emotion/react": "^11.10.6",
     "@formspree/react": "^2.4.1",
@@ -26,8 +25,7 @@
     "react-router-dom": "^6.8.2",
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
-    "three": "^0.150.1",
-    "twin.macro": "^3.3.0"
+    "three": "^0.150.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
