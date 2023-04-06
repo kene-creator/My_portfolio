@@ -37,7 +37,7 @@ const Loader = () => {
   return (
     <Html>
       <span className="canvas-load"></span>
-      <p
+      <div
         style={{
           fontSize: 14,
           color: "#f1f1f1",
@@ -46,7 +46,7 @@ const Loader = () => {
         }}
       >
         <CircularProgressWithLabel value={progress.toFixed(0)} />
-      </p>
+      </div>
     </Html>
   );
 };
