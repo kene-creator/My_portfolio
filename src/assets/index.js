@@ -37,8 +37,10 @@ import tripguide from "./tripguide.png";
 import openai from "./openai.png";
 import sociopedia from "./sociopedia.png";
 import dashboard from "./dashboard.png";
+import front from "./front.png";
 
 export {
+  front,
   backend,
   creator,
   mobile,
