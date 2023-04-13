@@ -41,7 +41,7 @@ const About = () => {
         I'm a skilled fullstack developer with skills and experience in
         Typescript, Javascript and Ruby, and expertise in frameworks like React,
         Next.js, Node.js, Nest.js, Three.js, Express, and Rails. Also I'm
-        proficient with SQL and NoSQL databases. I'm a quick learner an
+        proficient with SQL and NoSQL databases. I'm a quick learner and I
         collaborate closely with clients to create efficient, scalable, and
         user-friendly solutions that solve real-world problems. Lets work
         together to bring your ideas to life
