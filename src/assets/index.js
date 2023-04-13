@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -40,7 +39,6 @@ import sociopedia from "./sociopedia.png";
 import dashboard from "./dashboard.png";
 
 export {
-  logo,
   backend,
   creator,
   mobile,
