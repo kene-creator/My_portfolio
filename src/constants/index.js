@@ -30,6 +30,7 @@ import {
   nextjs,
   openai,
   sociopedia,
+  teamseas,
 } from "../assets/index";
 
 export const navLinks = [
@@ -298,6 +299,44 @@ const projects = [
     image: sociopedia,
     source_code_link: "https://github.com/kene-creator/sociopedia",
     live_link: "https://sociopediaapp.netlify.app/",
+  },
+  {
+    name: "Teamseas clone",
+    description:
+      "Teamseas is an non-profit organzation setup by Mr beast to aid in cleaning of our seas and oceans. In this project I aim to replicate the original website.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "postgresql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "chakra-ui",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nestjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "prisma",
+        color: "green-text-gradient",
+      },
+      {
+        name: "urql",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "graphql",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: teamseas,
+    source_code_link: "https://github.com/kene-creator/teamseas_frontend.git",
+    live_link: "https://teamseas-clone.netlify.app/",
   },
 ];
 

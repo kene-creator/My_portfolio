@@ -23,7 +23,7 @@ const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto flex flex-col justify-center items-center">
       <div
-        className={`${styles.paddingX} absolute inset-0 top-[135px] md:top-[100px] max-w-7xl mx-auto flex flex-row gap-5 items-start justify-center mt-[-2rem] md:mt-6`}
+        className={`${styles.paddingX}  max-w-7xl mx-auto flex flex-row gap-5 items-center justify-center mt-[-2rem] md:mt-6`}
       >
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#915eff]" />
@@ -39,7 +39,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <div className="text-white text-[rem] w-full md:w-[45%] lg:w-[30%] flex justify-center md:justify-between  gap-6 items-center absolute top-[18rem] md:top-[22rem] flex-col md:flex-row">
+      <div className="text-white text-[rem] w-full md:w-[45%] lg:w-[30%] flex justify-center md:justify-between  gap-6 items-center  flex-col md:flex-row">
         <div className="w-[8rem] h-[8rem] rounded-full relative overflow-hidden flex items-center justify-center">
           <div className="absolute inset-0 bg-gradient-to-r from-[#FC466B] to-purple-800 rounded-full"></div>
           <div className="relative z-10 bg-gray-700 p-4 text-white text-center h-[7.5rem] w-[7.5rem] rounded-full flex items-center justify-center">

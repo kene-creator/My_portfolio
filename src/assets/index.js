@@ -38,6 +38,7 @@ import openai from "./openai.png";
 import sociopedia from "./sociopedia.png";
 import dashboard from "./dashboard.png";
 import front from "./front.png";
+import teamseas from "./teamseas.png";
 
 export {
   front,
@@ -77,4 +78,5 @@ export {
   live,
   sociopedia,
   dashboard,
+  teamseas,
 };

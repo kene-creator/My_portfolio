@@ -92,7 +92,7 @@ const Works = () => {
           and manage projects effectively.
         </motion.p>
       </div>
-      <div className="mt-20 flex flex-wrap sm:flex-row flex-col gap-7">
+      <div className="mt-20 flex flex-wrap sm:flex-row flex-col gap-7 items-center justify-center">
         {projects.map((project, index) => {
           return (
             <ProjectCard key={`project-${index}`} {...project} index={index} />
